@@ -1,0 +1,219 @@
+
+:root{
+    --primary :rgb(78, 76, 76);
+    --secondary:rgb(83, 83, 165);
+}
+
+
+.home_container{
+    background-color: var(--primary);
+    border: 2px solid black ;height: 580px;width: 100%;
+    margin: auto;
+    
+}
+
+.home_navbarr,ul{
+    display: block;
+    display: flex;
+    float:right;
+   
+}
+
+.content_container{
+    
+    padding-left: 4%; 
+    display: grid; 
+    display: inline;  
+
+
+
+}
+#container{
+    background-color: black;
+   
+}
+
+.img_container,.content_container{
+    padding-top: 10%;
+    text-align: center;
+    
+    
+    padding-top: 20px;padding-right: -5px;
+     margin-left: 50px; 
+    
+    
+    height: 200px;
+    width: 200px;
+   
+}
+
+.content_container{
+    margin-left: 30%;
+    margin-bottom: 20%;
+    margin-top: -10%;
+    margin-right: -5%;
+    
+    
+
+}
+.project_container,.skill_container.about_container{
+
+    border: 2px solid black ;height: 580px;width: 100%;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: var(--secondary);
+}
+ 
+.contact_container.education_container{
+    border: 2px solid black ;height: 580px;width: 100%;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: var(--primary);
+}
+
+
+#nav,a{
+    color: whitesmoke;
+    border-radius: 50%;
+    float:left;
+    display: block;
+  text-decoration: none;
+   padding: 10px;
+  
+    
+}
+a:hover{
+    background-color: rgb(192, 167, 216);
+   
+}
+.homeBack
+{
+    border: 2px solid whitesmoke;
+    margin-right: auto;
+    color: red;
+    border-radius: 50%;
+    position: fixed;
+    top: 90%;
+    right: 1%;
+    transform: translateY(-50%);
+}
+.skill_container,ul,li{
+  
+    list-style-type: none ;
+     color:black;
+     text-align: center;
+     
+}
+
+span{
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+.about_container{
+    
+    border: 2px solid black ;height: 580px;width: 90%;
+    text-align: center;
+    /* margin-top: 2%; */
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--secondary);
+}
+
+.contact_container{
+    border: 2px solid black ;height: 580px;width: 90%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+   
+    background-color: var(--primary);
+}
+.skill_container{
+    border: 2px solid black ;height: 580px;width: 90%;
+
+    background-color: var(--secondary);
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+
+.education_container{
+    height: 580px;width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+  margin-top: -12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+    background-color: var(--primary);
+  
+}
+
+#table,th,td{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid  rgb(202, 150, 150);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.project_container{
+    border: 2px solid black ;height: 580px;width: 90%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--secondary);
+}
+    
+ 
+
+.project_container{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--secondary);
+    
+  
+    
+}
+
+
+.home_container,p,h4{
+    color:aqua;
+}
+#head{
+    background-color: rgb(214, 208, 208);
+}
+
+
+#text{
+    text-align: left;
+}
+ 
+.skill_container#unorderlist,ul
+{
+    list-style-type: none;
+   display: flex;
+   text-align: center;
+}
+#pro{
+    display: list-item;
+   
+    text-align: center;
+    list-style-type: none;
+   
+    
+}
+#orderlist,li{
+    color: aquamarine;
+}
+#h3{
+    color:yellow;
+}
+#unorderlist{
+    color:yellow;
+}
